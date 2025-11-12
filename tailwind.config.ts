@@ -249,6 +249,7 @@ const config = {
         "pulse-slow": "pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         "spin-slow": "spin 3s linear infinite",
         "wiggle": "wiggle 1s ease-in-out infinite",
+        "spotlight": "spotlight 3s ease-in-out infinite",
       },
       keyframes: {
         "accordion-down": {
@@ -286,6 +287,11 @@ const config = {
         "wiggle": {
           "0%, 100%": { transform: "rotate(-3deg)" },
           "50%": { transform: "rotate(3deg)" },
+        },
+        "spotlight": {
+          "0%": { opacity: "0", transform: "translate(-5%, -5%) scale(0.98)" },
+          "50%": { opacity: "0.7" },
+          "100%": { opacity: "1", transform: "translate(0, 0) scale(1)" },
         },
       },
       backdropBlur: {

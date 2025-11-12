@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Progress } from '@/components/ui/progress'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { SplineScene } from '@/components/spline-scene'
+import { SplineScene } from '@/components/ui/splite'
 import { Swords, Crown, Timer, Zap, Shield, Sparkles, Skull, Trophy, Clock, Sword } from 'lucide-react'
 
 interface BossQuestion {
